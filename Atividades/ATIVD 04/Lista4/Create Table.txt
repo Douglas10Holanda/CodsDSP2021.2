@@ -1,0 +1,8 @@
+create table Funcionarios (
+        id SERIAL CONSTRAINT pk_id_funcionario PRIMARY KEY,
+        cpf VARCHAR(14) NOT NULL,
+        matricula VARCHAR(50) NOT NULL,
+        nome VARCHAR(50) NOT NULL,
+        email VARCHAR(50) NOT NULL,
+        telefone VARCHAR(20) NOT NULL
+)
